@@ -24,7 +24,7 @@ def save_file2(filepath, content):
         outfile.write(content)
 
 
-openai.api_key = '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'
+openai.api_key = 'Enter Key'
 
 def chat_gpt(prompt, engine='gpt-4', temp=0.25, top_p=1.0, tokens=3000, freq_pen=0.0, pres_pen=0.0, stop=['asdfasdf', 'asdasdf'], role=None):
     max_retry = 5
